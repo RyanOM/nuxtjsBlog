@@ -62,6 +62,7 @@
 
 <script>
   import client from '~/plugins/contentful';
+  const removeMd = require('remove-markdown');
 
   export default {
     asyncData({ params, error, payload }) {
@@ -93,7 +94,7 @@
           {
             hid: `description`,
             name: 'description',
-            content: post.fields.content
+            content: removeMd(post.fields.content)
           },
           {
             hid: `keywords`,
@@ -118,7 +119,7 @@
           {
             hid: `og:description`,
             property: 'og:description',
-            content: post.fields.content
+            content: removeMd(post.fields.content)
           }
         ]
       }
