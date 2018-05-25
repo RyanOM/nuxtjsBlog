@@ -26,3 +26,9 @@ $ npm run generate
 ## Online Demo:
 
 https://romantic-joliot-af3740.netlify.com/
+
+
+## References
+
+- https://github.com/contentful/blog-in-5-minutes
+- https://www.youtube.com/watch?v=Pa5t8KyEORs
