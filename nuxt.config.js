@@ -1,5 +1,5 @@
-require('dotenv').config();
-const client = require('~/plugins/contentful');
+require('dotenv').config()
+const client = require('./plugins/contentful')
 
 module.exports = {
   /*
