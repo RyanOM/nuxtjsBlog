@@ -17,6 +17,9 @@ module.exports = {
         rel: 'stylesheet', href:'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css'
       },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    script: [
+      {src: 'bulma.js'}
     ]
   },
   /*
@@ -42,7 +45,11 @@ module.exports = {
     }
   },
   plugins: ['~/plugins/contentful'],
-  modules: ['@nuxtjs/dotenv', '@nuxtjs/markdownit'],
+  modules: [
+    '@nuxtjs/dotenv',
+    '@nuxtjs/markdownit',
+    '@nuxtjs/font-awesome'
+  ],
   markdownit: {
     injected: true
   },

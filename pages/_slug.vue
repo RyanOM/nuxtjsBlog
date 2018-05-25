@@ -80,8 +80,8 @@
     },
     head() {
       let post = this.post
-
       let imageUrl
+
       if (post.fields.images !== undefined) {
         imageUrl = post.fields.images[0].fields.file.url
       } else {
