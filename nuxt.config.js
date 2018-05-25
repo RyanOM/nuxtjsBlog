@@ -1,3 +1,6 @@
+require('dotenv').config();
+const client = require('./plugins/contentful');
+
 module.exports = {
   /*
   ** Headers of the page
@@ -10,6 +13,9 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Nuxt.js project' }
     ],
     link: [
+      {
+        rel: 'stylesheet', href:'https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css'
+      },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
@@ -33,6 +39,25 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
+    }
+  },
+  plugins: ['~/plugins/contentful'],
+  modules: ['@nuxtjs/dotenv', '@nuxtjs/markdownit'],
+  markdownit: {
+    injected: true
+  },
+  generate: {
+    routes () {
+      return client.getEntries({
+        'content_type': 'post'
+      }).then(entries => {
+        return entries.items.map(entry => {
+          return {
+            route: entry.fields.slug,
+            payload: entry
+          }
+        })
+      })
     }
   }
 }
