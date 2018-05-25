@@ -36,7 +36,39 @@
         .catch(e => console.log(e));
     },
     head: {
-      title: 'Latest Posts',
+      title: 'Latest Posts - Nuxt.js Blog',
+      meta: [
+        {
+          hid: `description`,
+          name: 'description',
+          content: 'Check out all of our latest posts'
+        },
+        {
+          hid: `keywords`,
+          name: 'keywords',
+          keywords: 'Latest Posts - Nuxt.js Blog'
+        },
+        {
+          hid: `og:title`,
+          property: 'og:title',
+          content: `Latest Posts - Nuxt.js Blog'`
+        },
+        {
+          hid: `og:url`,
+          property: 'og:url',
+          content: 'https://romantic-joliot-af3740.netlify.com/deployed-to-netlify'
+        },
+        {
+          hid: `og:image`,
+          property: 'og:image',
+          content: ''
+        },
+        {
+          hid: `og:description`,
+          property: 'og:description',
+          content: 'Check out all of our latest posts'
+        }
+      ]
     },
   };
 </script>

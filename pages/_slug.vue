@@ -19,7 +19,7 @@
         <article class="media center">
           <figure class="media-left">
             <figure class="image is-64x64">
-              <img src="https://bulma.io/images/placeholders/128x128.png">
+              <img src="https://pbs.twimg.com/profile_images/446670041824505858/PlSTlQpi_400x400.jpeg">
             </figure>
           </figure>
           <div class="media-content">
@@ -78,8 +78,49 @@
         .catch(e => console.log(e));
     },
     head() {
+      let post = this.post
+
+      let imageUrl
+      if (post.fields.images !== undefined) {
+        imageUrl = post.fields.images[0].fields.file.url
+      } else {
+        imageUrl = ''
+      }
+
       return {
-        title: this.post.fields.title
+        title: `${post.fields.title} - Nuxtjs Blog`,
+        meta: [
+          {
+            hid: `description`,
+            name: 'description',
+            content: post.fields.content
+          },
+          {
+            hid: `keywords`,
+            name: 'keywords',
+            keywords: post.fields.title
+          },
+          {
+            hid: `og:title`,
+            property: 'og:title',
+            content: `${post.fields.title} - Nuxtjs Blog`
+          },
+          {
+            hid: `og:url`,
+            property: 'og:url',
+            content: 'https://romantic-joliot-af3740.netlify.com/deployed-to-netlify' + this.$route.fullPath
+          },
+          {
+            hid: `og:image`,
+            property: 'og:image',
+            content: imageUrl
+          },
+          {
+            hid: `og:description`,
+            property: 'og:description',
+            content: post.fields.content
+          }
+        ]
       }
     },
   };
