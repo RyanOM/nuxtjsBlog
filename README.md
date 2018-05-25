@@ -1,6 +1,10 @@
-# nuxt-blog
+# Nuxt-blog
 
-> Nuxt.js project
+A blog built using [Nuxt.js](https://nuxtjs.org/) and [Contentful](https://www.contentful.com/).
+
+The site is hosted on [Netlify](https://www.netlify.com/).
+
+Styling is done using [Bulma](https://bulma.io/). 
 
 ## Build Setup
 
@@ -19,4 +23,6 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+## Online Demo:
+
+https://romantic-joliot-af3740.netlify.com/
