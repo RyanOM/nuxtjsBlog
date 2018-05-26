@@ -14,6 +14,9 @@
           <div class="column">
             <form name="contact" action="/thanks" method="post" netlify-honeypot="bot-field" netlify>
               <input type="hidden" name="form-name" value="contact-form" />
+              <p class="hidden">
+                <label>Don’t fill this out: <input name="bot-field"></label>
+              </p>
               <div class="field">
                 <label class="label" for="name">Name</label>
                 <div class="control">
@@ -148,5 +151,7 @@
 </script>
 
 <style scoped>
-
+  .hidden {
+    display: none;
+  }
 </style>
