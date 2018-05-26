@@ -12,7 +12,7 @@
       <div class="container">
         <div class="columns ">
           <div class="column">
-            <form name="contact" action="/thanks" method="post" netlify>
+            <form name="contact" action="/thanks" method="post" netlify-honeypot="bot-field" netlify>
               <input type="hidden" name="form-name" value="contact-form" />
               <div class="field">
                 <label class="label" for="name">Name</label>
