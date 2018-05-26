@@ -29,7 +29,7 @@
               </div>
 
               <div class="field">
-                <label class="label" for="subject">Name</label>
+                <label class="label" for="subject">Subject</label>
                 <div class="control">
                   <input class="input" type="text" placeholder="Hello there!" required id="subject" name="subject">
                 </div>
@@ -130,6 +130,9 @@
             </h3>
             <h3 class="title is-5">
               <span class="icon" style="color: dimgrey"><i class="fa fa-link"></i></span> &nbsp;<a href="http://ryan.omullan.com" target="_blank">ryan.omullan.com</a>
+            </h3>
+            <h3 class="title is-5">
+              <span class="icon" style="color: lightslategrey"><i class="fa fa-envelope"></i></span> &nbsp;<a href="mailto:omullan.ryan@gmail.com" target="_blank">omullan.ryan@gmail.com</a>
             </h3>
           </div>
         </div>
