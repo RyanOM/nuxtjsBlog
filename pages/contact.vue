@@ -12,7 +12,8 @@
       <div class="container">
         <div class="columns ">
           <div class="column">
-            <form name="contact" action="" method="post">
+            <form name="contact" action="" method="post" netlify>
+              <input type="hidden" name="form-name" value="contact-form" />
               <div class="field">
                 <label class="label" for="name">Name</label>
                 <div class="control">
@@ -116,11 +117,20 @@
                 -->
             </form>
           </div>
-          <div class="column">
-            <p>
-              <i class="fa fa-github"></i> Github
-              <i class="fa fa-github"></i> Facebook
-            </p>
+          <div class="column" style="padding-left: 30px">
+            <h3 class="title is-5">Where you can find me:</h3>
+            <h3 class="title is-5">
+              <span class="icon" style="color: #333;"><i class="fa fa-github"></i></span> &nbsp;<a href="https://github.com/ryanom" target="_blank">github.com/ryanom</a>
+            </h3>
+            <h3 class="title is-5">
+              <span class="icon" style="color: #0077B5;"><i class="fa fa-linkedin"></i></span> &nbsp;<a href="https://www.linkedin.com/in/ryanomullan/" target="_blank">linkedin.com/in/ryanomullan</a>
+            </h3>
+            <h3 class="title is-5">
+              <span class="icon" style="color: #0084b4;"><i class="fa fa-twitter"></i></span> &nbsp;<a href="https://twitter.com/ryanomullan" target="_blank">twitter.com/ryanomullan</a>
+            </h3>
+            <h3 class="title is-5">
+              <span class="icon" style="color: dimgrey"><i class="fa fa-link"></i></span> &nbsp;<a href="http://ryan.omullan.com" target="_blank">ryan.omullan.com</a>
+            </h3>
           </div>
         </div>
       </div>
