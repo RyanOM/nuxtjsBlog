@@ -36,6 +36,9 @@
           <span class="navbar-item">
             &nbsp;
           </span>
+          <a class="navbar-item " href="/">
+            Blog
+          </a>
           <a class="navbar-item " href="/about">
             About
           </a>
