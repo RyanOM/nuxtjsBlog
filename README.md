@@ -36,3 +36,10 @@ https://romantic-joliot-af3740.netlify.com/
 - https://medium.com/vue-mastery/best-practices-for-nuxt-js-seo-32399c49b2e5
 - https://codeburst.io/create-fantastic-forms-in-15-minutes-or-less-using-vue-nuxt-and-netlify-25e97e779fea
 - Cool background from https://coolbackgrounds.io
+
+
+## Future Add ons
+- Google Analytics
+- Social Sharing icons
+- Tags for post
+- Search
