@@ -6,14 +6,42 @@
           <h1 class="title is-2">Latest Posts</h1>
           <hr>
 
-          <h2
-            class="title is-4"
-            v-for="(post, index) in posts"
-            :key="index">
-            <nuxt-link :to="post.fields.slug">
-              {{ post.fields.title }}
-            </nuxt-link>
-          </h2>
+          <div class="columns is-multiline">
+            <div class="column is-half" v-for="(post, index) in posts" :key="index">
+              <div class="card">
+                <div class="card-image">
+                  <figure class="image is-4by3">
+                    <nuxt-link :to="post.fields.slug">
+                      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                    </nuxt-link>
+                  </figure>
+                </div>
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="title is-4">
+                        <nuxt-link :to="post.fields.slug" class="has-text-dark">
+                          {{ post.fields.title }}
+                        </nuxt-link>
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="content">
+                    <!-- TODO - Add preview of content
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.-->
+                    <!-- TODO - Add tags
+                    <a href="#">#css</a> - <a href="#">#responsive</a>
+                    -->
+                    <br>
+                    <time datetime="">{{ new Date(post.sys.createdAt).toDateString() }}</time>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
