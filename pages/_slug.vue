@@ -137,7 +137,7 @@
           {
             hid: `og:url`,
             property: 'og:url',
-            content: 'https://romantic-joliot-af3740.netlify.com/deployed-to-netlify' + this.$route.fullPath
+            content: 'https://romantic-joliot-af3740.netlify.com/' + this.$route.fullPath
           },
           {
             hid: `og:image`,

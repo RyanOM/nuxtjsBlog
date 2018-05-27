@@ -35,3 +35,4 @@ https://romantic-joliot-af3740.netlify.com/
 - https://scotch.io/tutorials/build-a-server-side-rendered-vue-app-with-nuxtjs
 - https://medium.com/vue-mastery/best-practices-for-nuxt-js-seo-32399c49b2e5
 - https://codeburst.io/create-fantastic-forms-in-15-minutes-or-less-using-vue-nuxt-and-netlify-25e97e779fea
+- Cool background from https://coolbackgrounds.io
