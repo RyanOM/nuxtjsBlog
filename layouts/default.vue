@@ -1,26 +1,31 @@
 <template>
   <div>
-    <navbar></navbar>
-    <section class="hero is-primary has-text-centered">
-      <div class="hero-body">
-        <div class="container">
-          <h1 class="title">
-            <nuxt-link to="/">Nuxt Blog</nuxt-link>
-          </h1>
-          <h2 class="subtitle">A tech blog</h2>
+    <div>
+      <navbar></navbar>
+      <section class="hero is-primary has-text-centered">
+        <div class="hero-body">
+          <div class="container">
+            <h1 class="title">
+              <nuxt-link to="/">Nuxt Blog</nuxt-link>
+            </h1>
+            <h2 class="subtitle">A tech blog</h2>
+          </div>
         </div>
-      </div>
-    </section>
-    <nuxt/>
+      </section>
+      <nuxt/>
+    </div>
+    <blog-footer></blog-footer>
   </div>
 </template>
 
 <script>
   import Navbar from '../components/Navbar'
+  import BlogFooter from '../components/BlogFooter'
 
   export default {
     components: {
-      Navbar
+      Navbar,
+      BlogFooter
     }
   }
 </script>
