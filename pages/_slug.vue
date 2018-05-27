@@ -19,7 +19,7 @@
         <article class="media center">
           <figure class="media-left">
             <figure class="image is-64x64">
-              <img src="https://pbs.twimg.com/profile_images/446670041824505858/PlSTlQpi_400x400.jpeg">
+              <img src="../static/me_400x400.jpeg">
             </figure>
           </figure>
           <div class="media-content">
