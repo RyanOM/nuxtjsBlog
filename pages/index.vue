@@ -12,7 +12,7 @@
                 <div class="card-image">
                   <figure class="image is-4by3">
                     <nuxt-link :to="post.fields.slug">
-                      <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                      <img :src="post|getPostImageUrl" alt="Placeholder image">
                     </nuxt-link>
                   </figure>
                 </div>
@@ -28,12 +28,11 @@
                   </div>
 
                   <div class="content">
-                    <!-- TODO - Add preview of content
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.-->
+                    {{ post.fields.content|removeMarkdown|truncate(120) }}
                     <!-- TODO - Add tags
                     <a href="#">#css</a> - <a href="#">#responsive</a>
                     -->
+                    <br>
                     <br>
                     <time datetime="">{{ new Date(post.sys.createdAt).toDateString() }}</time>
                   </div>

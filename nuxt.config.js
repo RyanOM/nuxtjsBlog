@@ -44,7 +44,10 @@ module.exports = {
       }
     }
   },
-  plugins: ['~/plugins/contentful'],
+  plugins: [
+    '~/plugins/contentful',
+    '~plugins/filters.js',
+  ],
   modules: [
     '@nuxtjs/dotenv',
     '@nuxtjs/markdownit',
