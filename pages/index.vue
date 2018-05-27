@@ -12,7 +12,7 @@
                 <div class="card-image">
                   <figure class="image is-4by3">
                     <nuxt-link :to="post.fields.slug">
-                      <img :src="post|getPostImageUrl" alt="Placeholder image">
+                      <img :src="post|getPostImageUrl" alt="Placeholder image" style="object-fit: cover">
                     </nuxt-link>
                   </figure>
                 </div>
