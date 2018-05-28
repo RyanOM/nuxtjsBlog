@@ -3,7 +3,7 @@
     <nav class="navbar ">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
-          Nuxtjs Blog
+          Ryan's Nuxtjs Blog
         </a>
 
         <a class="navbar-item is-hidden-desktop" href="https://github.com/ryanom" target="_blank">
