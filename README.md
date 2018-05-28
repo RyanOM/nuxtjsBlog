@@ -43,3 +43,4 @@ https://ryanomullan.com/
 - Social Sharing icons
 - Tags for post
 - Search
+- Pagination
