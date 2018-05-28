@@ -6,9 +6,9 @@
         <div class="hero-body">
           <div class="container">
             <h1 class="title">
-              <nuxt-link to="/">Nuxt Blog</nuxt-link>
+              <nuxt-link to="/">Blog</nuxt-link>
             </h1>
-            <h2 class="subtitle">A tech blog</h2>
+            <h2 class="subtitle">Mostly about tech, startups and other related content</h2>
           </div>
         </div>
       </section>
