@@ -25,7 +25,7 @@ $ npm run generate
 
 ## Online Demo:
 
-https://romantic-joliot-af3740.netlify.com/
+https://ryanomullan.com/
 
 
 ## References
