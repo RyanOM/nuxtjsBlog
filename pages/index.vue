@@ -29,9 +29,12 @@
 
                   <div class="content">
                     {{ post.fields.content|removeMarkdown|truncate(120) }}
-                    <!-- TODO - Add tags
-                    <a href="#">#css</a> - <a href="#">#responsive</a>
-                    -->
+                    <span v-if="'tags' in post.fields">
+                      <br>
+                      <br>
+                      <i class="fa fa-tags"></i> &nbsp;
+                      <span v-for="(tag, index) in post.fields.tags" :key="index">#{{ tag.fields.name }}</span> <span v-if="index+1 < post.fields.tags.length"> - </span>
+                    </span>
                     <br>
                     <br>
                     <time datetime="">{{ new Date(post.sys.createdAt).toDateString() }}</time>

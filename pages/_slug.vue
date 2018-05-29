@@ -39,6 +39,10 @@
         <div class="section is-paddingless-horizontal">
           <h1 class="title is-2">{{ post.fields.title }}</h1>
           <h2 class="subtitle is-3">{{ post.fields.subtitle }}</h2>
+          <span v-if="'tags' in post.fields">
+            <i class="fa fa-tags"></i> &nbsp;
+            <span v-for="(tag, index) in post.fields.tags" :key="index">#{{ tag.fields.name }}</span> <span v-if="index+1 < post.fields.tags.length"> - </span>
+          </span>
         </div>
 
         <figure class="columns is-multiple is-variable is-0 is-marginless grid-xl">
@@ -55,7 +59,6 @@
         </figcaption>
 
         <div class="content" v-html="$md.render(post.fields.content)"></div>
-
         <hr>
         <section>
           <div id="disqus_thread"></div>
