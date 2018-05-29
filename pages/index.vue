@@ -63,7 +63,7 @@
         .catch(e => console.log(e));
     },
     head: {
-      title: 'Latest Posts - Nuxt.js Blog',
+      title: 'Latest Posts - Ryan\'s Blog',
       meta: [
         {
           hid: `description`,
@@ -73,22 +73,22 @@
         {
           hid: `keywords`,
           name: 'keywords',
-          keywords: 'Latest Posts - Nuxt.js Blog'
+          keywords: 'Latest Posts - Ryan\'s Blog'
         },
         {
           hid: `og:title`,
           property: 'og:title',
-          content: `Latest Posts - Nuxt.js Blog'`
+          content: `Latest Posts - Ryan's Blog'`
         },
         {
           hid: `og:url`,
           property: 'og:url',
-          content: 'https://romantic-joliot-af3740.netlify.com/deployed-to-netlify'
+          content: 'https://ryanomullan.com'
         },
         {
           hid: `og:image`,
           property: 'og:image',
-          content: ''
+          content: 'https://pbs.twimg.com/profile_banners/2400039026/1527443496/1500x500'
         },
         {
           hid: `og:description`,

@@ -101,7 +101,7 @@
         .then(entries => {
           return {
             post: entries.items[0],
-            page_id: "https://romantic-joliot-af3740.netlify.com/" + entries.items[0].fields.slug
+            page_id: "https://ryanomullan.com/" + entries.items[0].fields.slug
           };
         })
         .catch(e => console.log(e));
@@ -113,11 +113,11 @@
       if (post.fields.images !== undefined) {
         imageUrl = post.fields.images[0].fields.file.url
       } else {
-        imageUrl = ''
+        imageUrl = 'https://pbs.twimg.com/profile_banners/2400039026/1527443496/1500x500'
       }
 
       return {
-        title: `${post.fields.title} - Nuxtjs Blog`,
+        title: `${post.fields.title} - Ryan's Blog`,
         meta: [
           {
             hid: `description`,
@@ -132,12 +132,12 @@
           {
             hid: `og:title`,
             property: 'og:title',
-            content: `${post.fields.title} - Nuxtjs Blog`
+            content: `${post.fields.title} - Ryan's Blog`
           },
           {
             hid: `og:url`,
             property: 'og:url',
-            content: 'https://romantic-joliot-af3740.netlify.com/' + this.$route.fullPath
+            content: 'https://ryanomullan.com/' + this.$route.fullPath
           },
           {
             hid: `og:image`,

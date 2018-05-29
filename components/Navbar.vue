@@ -3,7 +3,7 @@
     <nav class="navbar ">
       <div class="navbar-brand">
         <a class="navbar-item" href="/">
-          Ryan's Nuxtjs Blog
+          Ryan's Blog
         </a>
 
         <a class="navbar-item is-hidden-desktop" href="https://github.com/ryanom" target="_blank">
@@ -66,7 +66,7 @@
           <div class="navbar-item">
             <div class="field is-grouped">
               <p class="control">
-                <a class="button is-primary" href="https://github.com/RyanOM/nuxtjsBlog">
+                <a class="button is-primary" href="https://github.com/RyanOM/nuxtjsBlog" target="_blank">
                   <span class="icon">
                     <i class="fa fa-github"></i>
                   </span>

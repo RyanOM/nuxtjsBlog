@@ -19,7 +19,42 @@
 
 <script>
     export default {
-        name: "about.vue"
+        name: "about.vue",
+      head: {
+        title: 'Contact - Ryan\'s Blog',
+        meta: [
+          {
+            hid: `description`,
+            name: 'description',
+            content: 'Contact me here'
+          },
+          {
+            hid: `keywords`,
+            name: 'keywords',
+            keywords: 'Latest Posts - Ryan\'s Blog'
+          },
+          {
+            hid: `og:title`,
+            property: 'og:title',
+            content: `Contact - Ryan's Blog`
+          },
+          {
+            hid: `og:url`,
+            property: 'og:url',
+            content: 'https://ryanomullan.com/conact'
+          },
+          {
+            hid: `og:image`,
+            property: 'og:image',
+            content: 'https://pbs.twimg.com/profile_banners/2400039026/1527443496/1500x500'
+          },
+          {
+            hid: `og:description`,
+            property: 'og:description',
+            content: 'Contact me here'
+          }
+        ]
+      },
     }
 </script>
 
