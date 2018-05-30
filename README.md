@@ -40,7 +40,7 @@ https://ryanomullan.com/
 
 ## Future Add ons
 - Google Analytics
-- Social Sharing icons
-- Tags for post
+- Social Sharing buttons
+- Filter posts per tag
 - Search
 - Pagination
