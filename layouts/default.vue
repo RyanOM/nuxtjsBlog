@@ -14,6 +14,13 @@
       </section>
       <nuxt/>
     </div>
+    <div class="box cta">
+      <p class="has-text-centered">
+        <a href="http://eepurl.com/dwNlR1" target="_blank">
+          <span class="tag is-primary">Newsletter</span> If you want to receive an email about new articles or updates, click here to subscribe to my newsletter.
+        </a>
+      </p>
+    </div>
     <blog-footer></blog-footer>
   </div>
 </template>
@@ -40,6 +47,12 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
+}
+
+.box.cta {
+  border-radius: 0;
+  border-left: none;
+  border-right: none;
 }
 
 </style>
