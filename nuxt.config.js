@@ -51,7 +51,10 @@ module.exports = {
   modules: [
     '@nuxtjs/dotenv',
     '@nuxtjs/markdownit',
-    '@nuxtjs/font-awesome'
+    '@nuxtjs/font-awesome',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-47302992-9'
+    }]
   ],
   markdownit: {
     injected: true
