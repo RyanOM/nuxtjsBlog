@@ -52,6 +52,7 @@ module.exports = {
     '@nuxtjs/dotenv',
     '@nuxtjs/markdownit',
     '@nuxtjs/font-awesome',
+    '@nuxtjs/sitemap',
     ['@nuxtjs/google-analytics', {
       ua: 'UA-47302992-9'
     }]
@@ -72,5 +73,15 @@ module.exports = {
         })
       })
     }
+  },
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://ryanomullan.com',
+    cacheTime: 1000 * 60 * 15,
+    gzip: true,
+    generate: false, // Enable me when using nuxt generate
+    exclude: [
+      '/thanks',
+    ]
   }
 }
