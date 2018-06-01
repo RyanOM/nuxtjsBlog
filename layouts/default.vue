@@ -17,7 +17,7 @@
     <div class="box cta">
       <p class="has-text-centered">
         <a href="http://eepurl.com/dwNlR1" target="_blank">
-          <span class="tag is-primary">Newsletter</span> If you want to receive an email about new articles or updates, click here to subscribe to my newsletter.
+          <span class="tag is-primary">Newsletter</span> If you want to receive an email about new articles or updates, click here to subscribe.
         </a>
       </p>
     </div>

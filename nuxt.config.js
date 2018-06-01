@@ -77,9 +77,7 @@ module.exports = {
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://ryanomullan.com',
-    cacheTime: 1000 * 60 * 15,
     gzip: true,
-    generate: false, // Enable me when using nuxt generate
     exclude: [
       '/thanks',
     ]
