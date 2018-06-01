@@ -53,7 +53,7 @@ module.exports = {
     '@nuxtjs/markdownit',
     '@nuxtjs/font-awesome',
     ['@nuxtjs/google-analytics', {
-      id: 'UA-47302992-9'
+      ua: 'UA-47302992-9'
     }]
   ],
   markdownit: {
