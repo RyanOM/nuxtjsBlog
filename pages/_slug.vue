@@ -41,7 +41,7 @@
           <h2 class="subtitle is-3">{{ post.fields.subtitle }}</h2>
           <span v-if="'tags' in post.fields">
             <i class="fa fa-tags"></i> &nbsp;
-            <span v-for="(tag, index) in post.fields.tags" :key="index">#{{ tag.fields.name }}</span> <span v-if="index+1 < post.fields.tags.length"> - </span>
+            <span v-for="(tag, index) in post.fields.tags" :key="index">#{{ tag.fields.name }}<span v-if="index+1 < post.fields.tags.length">, </span></span>
           </span>
         </div>
 
