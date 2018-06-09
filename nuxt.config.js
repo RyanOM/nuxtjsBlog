@@ -52,6 +52,7 @@ module.exports = {
     '@nuxtjs/dotenv',
     '@nuxtjs/markdownit',
     '@nuxtjs/font-awesome',
+    '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
     ['@nuxtjs/google-analytics', {
       ua: 'UA-47302992-9'
