@@ -2,7 +2,7 @@
   <div>
     <div>
       <navbar></navbar>
-      <section class="hero is-primary has-text-centered" style="background: url(https://pbs.twimg.com/profile_banners/2400039026/1527443496/1500x500);">
+      <section class="hero is-primary has-text-centered" style="background: url(/bg.png);">
         <div class="hero-body">
           <div class="container">
             <h1 class="title">
