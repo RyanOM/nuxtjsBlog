@@ -125,19 +125,19 @@
           <div class="column" style="padding-left: 30px">
             <h3 class="title is-5">Where you can find me:</h3>
             <h3 class="title is-5">
-              <span class="icon" style="color: #333;"><i class="fa fa-github"></i></span> &nbsp;<a href="https://github.com/ryanom" target="_blank">github.com/ryanom</a>
+              <span class="icon" style="color: #333;"><i class="fa fa-github"></i></span> &nbsp;<a href="https://github.com/ryanom" target="_blank" rel="noreferrer">github.com/ryanom</a>
             </h3>
             <h3 class="title is-5">
-              <span class="icon" style="color: #0077B5;"><i class="fa fa-linkedin"></i></span> &nbsp;<a href="https://www.linkedin.com/in/ryanomullan/" target="_blank">linkedin.com/in/ryanomullan</a>
+              <span class="icon" style="color: #0077B5;"><i class="fa fa-linkedin"></i></span> &nbsp;<a href="https://www.linkedin.com/in/ryanomullan/" target="_blank" rel="noreferrer">linkedin.com/in/ryanomullan</a>
             </h3>
             <h3 class="title is-5">
-              <span class="icon" style="color: #0084b4;"><i class="fa fa-twitter"></i></span> &nbsp;<a href="https://twitter.com/ryanomullan" target="_blank">twitter.com/ryanomullan</a>
+              <span class="icon" style="color: #0084b4;"><i class="fa fa-twitter"></i></span> &nbsp;<a href="https://twitter.com/ryanomullan" target="_blank" rel="noreferrer">twitter.com/ryanomullan</a>
             </h3>
             <h3 class="title is-5">
-              <span class="icon" style="color: dimgrey"><i class="fa fa-link"></i></span> &nbsp;<a href="http://ryan.omullan.com" target="_blank">ryan.omullan.com</a>
+              <span class="icon" style="color: dimgrey"><i class="fa fa-link"></i></span> &nbsp;<a href="http://ryan.omullan.com" target="_blank" rel="noreferrer">ryan.omullan.com</a>
             </h3>
             <h3 class="title is-5">
-              <span class="icon" style="color: lightslategrey"><i class="fa fa-envelope"></i></span> &nbsp;<a href="mailto:omullan.ryan@gmail.com" target="_blank">omullan.ryan@gmail.com</a>
+              <span class="icon" style="color: lightslategrey"><i class="fa fa-envelope"></i></span> &nbsp;<a href="mailto:omullan.ryan@gmail.com" target="_blank" rel="noreferrer">omullan.ryan@gmail.com</a>
             </h3>
           </div>
         </div>

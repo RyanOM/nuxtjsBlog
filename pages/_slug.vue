@@ -26,7 +26,7 @@
             <div class="content">
               <p>
                 <strong>Ryan O'Mullan</strong> ·
-                <a href="https://twitter.com/ryanomullan" target="_blank">@ryanomullan</a> <br>
+                <a href="https://twitter.com/ryanomullan" target="_blank" rel="noreferrer">@ryanomullan</a> <br>
                 <span class="has-text-grey">
                   Web Developer<br>
                   <time datetime="">{{ new Date(post.sys.createdAt).toDateString() }}</time>
