@@ -11,6 +11,8 @@
       <div class="column is-half is-offset-one-quarter">
         <p>
           My name is Ryan O'Mullan and I'm an Irish web developer who currently lives in São Paulo. I like to build things using technology such as Python, Javascript and AWS.
+          <br>
+          You can checkout some of the things I have worked on <a href="https://github.com/ryanom" target="_blank" rel="noreferrer">my Github account</a>.
         </p>
       </div>
     </div>
