@@ -8,9 +8,10 @@
           <img src="../static/me_400x400.jpeg" class="is-circular">
         </figure>
       </div>
-      <div class="column is-half is-offset-one-quarter">
+      <div class="column is-half is-offset-one-quarter has-text-justified">
         <p>
           My name is Ryan O'Mullan and I'm an Irish web developer who currently lives in São Paulo. I like to build things using technology such as Python, Javascript and AWS.
+          <br>
           <br>
           You can checkout some of the things I have worked on <a href="https://github.com/ryanom" target="_blank" rel="noreferrer">my Github account</a>.
         </p>
