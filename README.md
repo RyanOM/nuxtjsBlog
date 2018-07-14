@@ -1,10 +1,9 @@
 # Nuxt-blog
 
-A blog built using [Nuxt.js](https://nuxtjs.org/) and [Contentful](https://www.contentful.com/).
-
-The site is hosted on [Netlify](https://www.netlify.com/).
-
-Styling is done using [Bulma](https://bulma.io/). 
+- A blog built using [Nuxt.js](https://nuxtjs.org/) and [Contentful](https://www.contentful.com/) as a CMS.
+- The site is hosted on [Netlify](https://www.netlify.com/).
+- Styling is done using [Bulma](https://bulma.io/).
+- Comments on blog posts using [Disqus](http://disqus.com/).
 
 ## Build Setup
 
