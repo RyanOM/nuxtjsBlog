@@ -150,27 +150,27 @@
   export default {
     name: "contact.vue",
     head: {
-      title: 'About - Ryan\'s Blog',
+      title: 'Contact - Ryan\'s Blog',
       meta: [
         {
           hid: `description`,
           name: 'description',
-          content: 'Find out more about me and my current projects'
+          content: 'Contact me here'
         },
         {
           hid: `keywords`,
           name: 'keywords',
-          keywords: 'About me - Ryan\'s Blog'
+          keywords: 'Latest Posts - Ryan\'s Blog'
         },
         {
           hid: `og:title`,
           property: 'og:title',
-          content: `About - Ryan's Blog`
+          content: `Contact - Ryan's Blog`
         },
         {
           hid: `og:url`,
           property: 'og:url',
-          content: 'https://ryanomullan.com'
+          content: 'https://ryanomullan.com/conact'
         },
         {
           hid: `og:image`,
@@ -180,7 +180,7 @@
         {
           hid: `og:description`,
           property: 'og:description',
-          content: 'Find out more about me and my current projects'
+          content: 'Contact me here'
         }
       ]
     },

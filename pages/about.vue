@@ -13,7 +13,8 @@
           My name is Ryan O'Mullan and I'm an Irish web developer who currently lives in São Paulo. I like to build things using technology such as Python, Javascript and AWS.
           <br>
           <br>
-          You can checkout some of the things I have worked on <a href="https://github.com/ryanom" target="_blank" rel="noreferrer">my Github account</a>.
+          You can checkout some of the things I have worked on <a href="https://github.com/ryanom" target="_blank" rel="noreferrer">my Github account</a> or at my other website:
+          <a href="http://ryan.omullan.com" target="_blank" rel="noreferrer">http://ryan.omullan.com</a>.
         </p>
       </div>
     </div>
@@ -22,29 +23,29 @@
 
 <script>
     export default {
-        name: "about.vue",
+      name: "about.vue",
       head: {
-        title: 'Contact - Ryan\'s Blog',
+        title: 'About - Ryan\'s Blog',
         meta: [
           {
             hid: `description`,
             name: 'description',
-            content: 'Contact me here'
+            content: 'Find out more about me and my current projects'
           },
           {
             hid: `keywords`,
             name: 'keywords',
-            keywords: 'Latest Posts - Ryan\'s Blog'
+            keywords: 'About me - Ryan\'s Blog'
           },
           {
             hid: `og:title`,
             property: 'og:title',
-            content: `Contact - Ryan's Blog`
+            content: `About - Ryan's Blog`
           },
           {
             hid: `og:url`,
             property: 'og:url',
-            content: 'https://ryanomullan.com/conact'
+            content: 'https://ryanomullan.com'
           },
           {
             hid: `og:image`,
@@ -54,7 +55,7 @@
           {
             hid: `og:description`,
             property: 'og:description',
-            content: 'Contact me here'
+            content: 'Find out more about me and my current projects'
           }
         ]
       },
