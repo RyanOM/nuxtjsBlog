@@ -18,6 +18,14 @@
         </p>
       </div>
     </div>
+    <div class="column is-offset-2 is-8"><hr></div>
+    <div class="container has-text-centered" style="padding-top: 30px">
+      <h1 class="title">Current Projects</h1>
+      <div class="column is-half is-offset-one-quarter has-text-justified">
+        <p><a href="https://sudojobs.io/" target="_blank" rel="noreferrer">SudoJobs</a> - A job platform that favors transparency on job offers.</p>
+        <p><a href="http://golingo.com.br" target="_blank" rel="noreferrer">Golingo</a> - A platform to help people find their next native language teacher.</p>
+      </div>
+    </div>
   </section>
 </template>
 
