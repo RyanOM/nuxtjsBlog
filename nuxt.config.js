@@ -54,9 +54,9 @@ module.exports = {
     '@nuxtjs/font-awesome',
     '@nuxtjs/pwa',
     '@nuxtjs/sitemap',
-    '@nuxtjs/google-analytics', {
-      ua: 'UA-47302992-9'
-    }
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-47302992-9'
+    }]
   ],
   markdownit: {
     injected: true
