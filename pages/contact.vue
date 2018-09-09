@@ -137,7 +137,7 @@
               <span class="icon" style="color: dimgrey"><i class="fa fa-link"></i></span> &nbsp;<a href="http://ryan.omullan.com" target="_blank" rel="noreferrer">ryan.omullan.com</a>
             </h3>
             <h3 class="title is-5">
-              <span class="icon" style="color: lightslategrey"><i class="fa fa-envelope"></i></span> &nbsp;<a href="mailto:omullan.ryan@gmail.com" target="_blank" rel="noreferrer">omullan.ryan@gmail.com</a>
+              <span class="icon" style="color: lightslategrey"><i class="fa fa-envelope"></i></span> &nbsp;<a href="mailto:contact@ryanomullan.com" target="_blank" rel="noreferrer">contact@ryanomullan.com</a>
             </h3>
           </div>
         </div>
