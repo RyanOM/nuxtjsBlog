@@ -24,6 +24,8 @@
       <div class="column is-half is-offset-one-quarter has-text-justified">
         <p><a href="https://sudojobs.io/" target="_blank" rel="noreferrer">SudoJobs</a> - A job platform focused on IT jobs that favors transparency in the offers.</p>
         <p><a href="http://golingo.com.br" target="_blank" rel="noreferrer">Golingo</a> - A platform to help people find their next native language teacher.</p>
+        <p><a href="https://futebolbrazil.com/" target="_blank" rel="noreferrer">Futebol Brazil</a> - An English language Brazilian football blog from people living in Brazil. From Brasileiro to Copa Libertadores. Match reports, interviews and more!</p>
+
       </div>
     </div>
   </section>
