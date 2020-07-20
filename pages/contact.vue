@@ -139,6 +139,9 @@
             <h3 class="title is-5">
               <span class="icon" style="color: lightslategrey"><i class="fa fa-envelope"></i></span> &nbsp;<a href="mailto:contact@ryanomullan.com" target="_blank" rel="noreferrer">contact@ryanomullan.com</a>
             </h3>
+            <h3 class="title is-5">
+              <span class="icon" style="color: #f48024"><i class="fa fa-stack-overflow"></i></span> &nbsp;<a href="https://stackoverflow.com/users/4876493/ryan" target="_blank" rel="noreferrer">https://stackoverflow.com/users/4876493/ryan</a>
+            </h3>
           </div>
         </div>
       </div>
