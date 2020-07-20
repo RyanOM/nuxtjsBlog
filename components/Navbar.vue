@@ -69,6 +69,11 @@
               <i class="fa fa-twitter"></i>
             </span>
           </a>
+          <a class="navbar-item is-hidden-desktop-only" href="https://stackoverflow.com/users/4876493/ryan" target="_blank" rel="noreferrer">
+          <span class="icon" style="color: #f48024;">
+            <i class="fa fa-stack-overflow"></i>
+          </span>
+          </a>
           <div class="navbar-item">
             <div class="field is-grouped">
               <p class="control">
