@@ -10,20 +10,18 @@
       </div>
       <div class="column is-half is-offset-one-quarter has-text-justified">
         <p>
-          My name is Ryan O'Mullan and I'm an Irish web developer who currently lives in São Paulo. I like to build things using technology such as Python, Javascript and AWS.
+          My name is Ryan O'Mullan and I'm an Irish Software Engineer who works remotely. I like to build things using technology such as Python, Javascript and cloud solutions.
           <br>
           <br>
-          You can checkout some of the things I have worked on <a href="https://github.com/ryanom" target="_blank" rel="noreferrer">my Github account</a> or at my other website:
-          <a href="http://ryan.omullan.com" target="_blank" rel="noreferrer">http://ryan.omullan.com</a>.
+          You can checkout some of the things I have worked on <a href="https://github.com/ryanom" target="_blank" rel="noreferrer">my Github account</a> or <a href="https://www.linkedin.com/in/ryanomullan/" target="_blank" rel="noreferrer">connect with me on Linkedin.</a>
         </p>
       </div>
     </div>
     <div class="column is-offset-2 is-8"><hr></div>
     <div class="container has-text-centered" style="padding-top: 30px">
-      <h1 class="title">Current Projects</h1>
+      <h1 class="title">Side Projects</h1>
       <div class="column is-half is-offset-one-quarter has-text-justified">
         <p><a href="https://sudojobs.io/" target="_blank" rel="noreferrer">SudoJobs</a> - A job platform focused on IT jobs that favors transparency in the offers.</p>
-        <p><a href="http://golingo.com.br" target="_blank" rel="noreferrer">Golingo</a> - A platform to help people find their next native language teacher.</p>
         <p><a href="https://futebolbrazil.com/" target="_blank" rel="noreferrer">Futebol Brazil</a> - An English language Brazilian football blog from people living in Brazil. From Brasileiro to Copa Libertadores. Match reports, interviews and more!</p>
 
       </div>

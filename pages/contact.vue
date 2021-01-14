@@ -134,9 +134,6 @@
               <span class="icon" style="color: #0084b4;"><i class="fa fa-twitter"></i></span> &nbsp;<a href="https://twitter.com/ryanomullan" target="_blank" rel="noreferrer">twitter.com/ryanomullan</a>
             </h3>
             <h3 class="title is-5">
-              <span class="icon" style="color: dimgrey"><i class="fa fa-link"></i></span> &nbsp;<a href="http://ryan.omullan.com" target="_blank" rel="noreferrer">ryan.omullan.com</a>
-            </h3>
-            <h3 class="title is-5">
               <span class="icon" style="color: lightslategrey"><i class="fa fa-envelope"></i></span> &nbsp;<a href="mailto:contact@ryanomullan.com" target="_blank" rel="noreferrer">contact@ryanomullan.com</a>
             </h3>
             <h3 class="title is-5">

@@ -14,13 +14,14 @@
       </section>
       <nuxt/>
     </div>
+    <!-- Disable Newsletter signup
     <div class="box cta">
       <p class="has-text-centered">
         <a href="http://eepurl.com/dwNlR1" target="_blank" rel="noreferrer">
           <span class="tag is-primary">Newsletter</span> If you want to receive an email about new articles or updates, click here to subscribe.
         </a>
       </p>
-    </div>
+    </div>-->
     <blog-footer></blog-footer>
   </div>
 </template>
