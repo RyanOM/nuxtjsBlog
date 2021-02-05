@@ -10,8 +10,10 @@
       </div>
       <div class="column is-half is-offset-one-quarter has-text-justified">
         <p>
-          My name is Ryan O'Mullan and I'm an Irish Software Engineer who works remotely. I like to build things using technology such as Python, Javascript and cloud solutions.
+          I’m a software engineer with over 5 years of experience in building applications, everything from internal tooling to consumer banking apps.
+          I’ve also led small teams as a PM and enjoy working closely with customers.
           <br>
+          I’ve been full-remote for over 2 years and prior to that I’ve worked internationally in France, Germany & Brazil, allowing me to become trilingual and well equipped to work with teams & customers worldwide.
           <br>
           You can checkout some of the things I have worked on <a href="https://github.com/ryanom" target="_blank" rel="noreferrer">my Github account</a> or <a href="https://www.linkedin.com/in/ryanomullan/" target="_blank" rel="noreferrer">connect with me on Linkedin.</a>
         </p>
@@ -22,8 +24,6 @@
       <h1 class="title">Side Projects</h1>
       <div class="column is-half is-offset-one-quarter has-text-justified">
         <p><a href="https://sudojobs.io/" target="_blank" rel="noreferrer">SudoJobs</a> - A job platform focused on IT jobs that favors transparency in the offers.</p>
-        <p><a href="https://futebolbrazil.com/" target="_blank" rel="noreferrer">Futebol Brazil</a> - An English language Brazilian football blog from people living in Brazil. From Brasileiro to Copa Libertadores. Match reports, interviews and more!</p>
-
       </div>
     </div>
   </section>
