@@ -19,7 +19,7 @@
     "@nuxtjs/markdownit": "^1.2.1",
     "@nuxtjs/pwa": "^2.0.8",
     "@nuxtjs/sitemap": "^0.1.1",
-    "ajv": "^6.5.0",
+    "ajv": "^6.12.3",
     "contentful": "^6.1.1",
     "dotenv": "^5.0.1",
     "nuxt": "^1.0.0",
