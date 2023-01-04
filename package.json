@@ -22,7 +22,7 @@
     "ajv": "^6.5.0",
     "contentful": "^6.1.1",
     "dotenv": "^5.0.1",
-    "nuxt": "^1.0.0",
+    "nuxt": "^3.0.0",
     "remove-markdown": "^0.2.2"
   },
   "devDependencies": {
